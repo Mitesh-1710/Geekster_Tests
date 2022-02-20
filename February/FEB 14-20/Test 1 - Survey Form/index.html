@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="main">
+        <div id="surveydiv">
+            <h1>Survey of Gamers</h1>
+        </div>
+        <div id="survey">
+            <form>
+                <h2>1. Are you..</h2>
+                <input type="radio" id="radio" name="gender"><label>Male</label><br>
+                <input type="radio" id="radio" name="gender"><label>Female</label><br>
+                <input type="radio" id="radio" name="gender"><label>Don't want to disclose</label><br>
+                <br>
+                <h2>2. Which of the following best describes your current age?</h2>
+                <input type="radio" id="radio" name="age"><label>Under 18</label><br>
+                <input type="radio" id="radio" name="age"><label>18-24</label><br>
+                <input type="radio" id="radio" name="age"><label>25-34</label><br>
+                <input type="radio" id="radio" name="age"><label>35-49</label><br>
+                <input type="radio" id="radio" name="age"><label>50+</label><br>
+                <br>
+                <h2>3. Select your preferable gaming Device.</h2>
+                <select name="device">
+                    <option value="gaming console">Gaming Console</option>
+                    <option value="Pc">PC</option>
+                    <option value="tablet">Tablet</option>
+                    <option value="smart phone">Smart Phone</option>
+                  </select>
+                <br>
+                <br>
+                <h2>4. How many hours you play games on your Device?</h2>
+                <input type="radio" id="radio" name="hr"><label>Less than 1hr</label><br>
+                <input type="radio" id="radio" name="hr"><label>1hr</label><br>
+                <input type="radio" id="radio" name="hr"><label>2hr</label><br>
+                <input type="radio" id="radio" name="hr"><label>3hr</label><br>
+                <input type="radio" id="radio" name="hr"><label>More than 3hr</label><br>
+                <br>
+                <br>
+                <h2>5. Which game genre do you play on your Device?</h2>
+                <input type="checkbox" id="radio" name="genre"><label>Action</label><br>
+                <input type="checkbox" id="radio" name="genre"><label>Adventure</label><br>
+                <input type="checkbox" id="radio" name="genre"><label>Card</label><br>
+                <input type="checkbox" id="radio" name="genre"><label>Sports</label><br>
+                <input type="checkbox" id="radio" name="genre"><label>Strategy</label><br>
+                <input type="checkbox" id="radio" name="genre"><label>Racing</label><br>
+                <input type="checkbox" id="radio" name="genre"><label>Other (please specify)</label><br><textarea name="genre" id="textarea" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <h2>6. How much money you spend on in game items?</h2>
+                <input type="radio" id="radio" name="item"><label>Less than 1k</label><br>
+                <input type="radio" id="radio" name="item"><label>2k</label><br>
+                <input type="radio" id="radio" name="item"><label>3k</label><br>
+                <input type="radio" id="radio" name="item"><label>4k</label><br>
+                <input type="radio" id="radio" name="item"><label>More than 4k</label><br>
+                <br>
+                <br>
+                <input type="text" placeholder="First Name" id="Name">
+                <input type="text" placeholder="Last Name" id="Name"><br>
+                <input type="email" placeholder="Email"><br>
+                <input type="submit" value="Sumbit Survey" id="input_submit"><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
