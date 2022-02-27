@@ -124,6 +124,65 @@ footer {
 
 }
 
+#education{
+    height: 500px;
+    width: 100%;
+}
+
+#education h1{
+    font-size: 40px;
+    padding: 20px;
+    background-color: black;
+    color: cadetblue;
+}
+
+#education  table{
+    border: 5px solid rgb(13, 79, 82);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    margin-top: 80px;
+    width: 90%;
+    margin-left: 5%;
+    height: 300px;
+    font-size: 20px;
+    color: cadetblue;
+}
+#education  th,tr,td{
+    border: 2px solid rgb(13, 79, 82);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+#education th{
+    font-size: 25px;
+}
+#hobbies{
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#hobbies h1{
+    font-size: 40px;
+    padding: 20px;
+    background-color: black;
+    color: cadetblue;
+}
+
+#hobbies details{
+    font-size: 20px;
+    background-color: black;
+    color: cadetblue;
+    padding: 20px;
+}
+#hobbies p
+{
+    padding-left: 30px;
+}
+
+
 /* ------------------------------ Contact.html -----------------------------------------*/
 
 #main_contact{
