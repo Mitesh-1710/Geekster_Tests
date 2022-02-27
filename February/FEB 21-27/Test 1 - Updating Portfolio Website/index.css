@@ -92,25 +92,6 @@ article h2{
     line-height: 40px;
     padding-right: 20px;
 }
-#links {
-    background-color: cadetblue;
-    height: 400px;
-}
-
-#links_table {
-    width: 100%;
-}
-
-#links_table a{
-    text-decoration: none;
-    color: black;
-}
-
-#links_img {
-    border-radius: 50%;
-    margin-top: 50px;
-    border: 3px solid black;
-}
 
 footer {
     background-color: black;
