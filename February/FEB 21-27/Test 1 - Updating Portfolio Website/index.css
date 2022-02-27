@@ -196,3 +196,10 @@ i{
     color: antiquewhite;
     margin: 15px;
 }
+
+/* ------------------------------ resume.html -----------------------------------------*/
+
+#resume{
+    padding: 20px;
+    text-align: center;
+}
