@@ -82,7 +82,10 @@ article {
     margin-left: 30px;
     color: black
 }
-
+article:hover {
+    background-color: black;
+    color: cadetblue;
+}
 article h1 {
 
     text-decoration: underline;
@@ -135,7 +138,6 @@ footer {
     background-color: black;
     color: cadetblue;
 }
-
 #education  table{
     border: 5px solid rgb(13, 79, 82);
     border-collapse: collapse;
@@ -155,6 +157,16 @@ footer {
     padding: 10px;
     text-align: center;
 }
+#education td:hover{
+    color: black;
+    background-color: cadetblue;
+    border: 1px solid black;
+}
+#education  th:hover{
+    color: black;
+    background-color: cadetblue;
+    border: 1px solid black;
+}
 #education th{
     font-size: 25px;
 }
@@ -170,7 +182,10 @@ footer {
     background-color: black;
     color: cadetblue;
 }
-
+#hobbies p:hover{
+    background-color: cadetblue;
+    color: black;
+}
 #hobbies details{
     font-size: 20px;
     background-color: black;
