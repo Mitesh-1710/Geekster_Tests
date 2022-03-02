@@ -54,6 +54,7 @@ nav {
 #main {
     background-color: cadetblue;
     height: 900px;
+     width: 100%;
 }
 
 #profile_pic {
@@ -77,11 +78,11 @@ nav {
 }
 
 article {
-    width: 95%;
+    width: 96%;
     margin-top: 50px;
-    margin-left: 30px;
     background-color: black;
     color: cadetblue;
+    padding: 10px 10px 30px 30px;
 }
 article h1 {
 
