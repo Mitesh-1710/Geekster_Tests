@@ -32,6 +32,10 @@ main{
     width: 250px;
     margin-bottom: 20px;
 }
+.logo img:hover{
+    cursor: pointer;
+    animation: heartbeat 6s infinite ease-in-out;
+}
 .logo p{
     font-size: 28px;
     font-weight: normal;
@@ -61,7 +65,8 @@ main{
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     box-sizing: border-box;
     margin: 40px 0 0;
-    padding: 10px 15px 20px 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     width: 396px;
     text-align: center;
 }
@@ -77,6 +82,11 @@ main{
     color: #fff;
     font-weight: bold;
     margin-top: 10px;
+}
+.hr-line{
+    border-bottom: 1px solid #dddfe2;
+    width: 90%;
+    margin-left: 21px;
 }
 .login input[type="submit"]:hover{
     cursor: pointer;
@@ -103,7 +113,7 @@ main{
 }
 form{
     padding-bottom: 20px;
-    border-bottom: 1px solid #dddfe2;
+    
 }
 .new-account{
     margin-top: 28px;
@@ -162,6 +172,48 @@ ul a:hover{
 .add{
     padding: 0px 8px;
 }
+@keyframes heartbeat{
+    10% {
+        transform: perspective(500px) translateZ(-30px);
+        transform: rotate(360deg);
+      }
+    
+      20% {
+        transform: perspective(500px) translateZ(30px);
+      }
+    
+      30% {
+        transform: perspective(500px) translateZ(-30px);
+      }
+    
+      40% {
+        transform: perspective(500px) translateZ(30px);
+      }
+    
+      50% {
+        transform: perspective(500px) translateZ(-30px);
+      }
+    
+      60% {
+        transform: perspective(500px) translateZ(30px);
+      }
+    
+      70% {
+        transform: perspective(500px) translateZ(-30px);
+      }
+    
+      80% {
+        transform: perspective(500px) translateZ(30px);
+      }
+    
+      90% {
+        transform: perspective(500px) translateZ(-30px);
+      }
+    
+      100% {
+        transform: perspective(500px) translateZ(30px);
+      }
+} 
 @media screen and (max-width: 900px){
    
     .logo{
@@ -200,14 +252,20 @@ ul a:hover{
         margin-bottom: 50px;
     }
 }
+
 @media screen and (max-width: 800px){
     .flinks{
         width:auto;
         padding-left: 30px;
     }
-     .login{
-        padding: 15px;
+    .login input{
+        width: 330px;
+    }
+    .login input[type="submit"]{
+        width: 330px;
+       
+    }
+    .inside-login{
+        width: 360px; 
     }
 }
-
-
