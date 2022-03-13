@@ -200,4 +200,10 @@ ul a:hover{
         margin-bottom: 50px;
     }
 }
+@media screen and (max-width: 800px){
+    .flinks{
+        width:auto;
+        padding-left: 30px;
+    }
+}
 
